@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <description/>
+        <operation>read</operation>
+        <rca_type>requested</rca_type>
+        <source/>
+        <source_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</source_scope>
+        <source_table/>
+        <source_type>5</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-08-25 18:09:37</sys_created_on>
+        <sys_id>93600f7a1b7c791062e50ed2cd4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>79c6cf291bb0351062e50ed2cd4bcb5d</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_93600f7a1b7c791062e50ed2cd4bcb4b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-08-25 18:09:37</sys_updated_on>
+        <target/>
+        <target_scope display_value="Employee Profile">1e95bac2738f001001b566b90ff6a7cd</target_scope>
+        <target_table/>
+        <target_type>3</target_type>
+    </sys_restricted_caller_access>
+</record_update>

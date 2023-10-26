@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.SailpointUserUtils</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SailpointUserUtils</name>
+        <script><![CDATA[var SailpointUserUtils = Class.create();
+SailpointUserUtils.prototype = {
+    initialize: function () {
+    },
+
+    get: function (encodedQuery, limit, offset) {
+        var employeeData = [];
+        var gr = new GlideRecord('sn_employee_profile');
+
+        if (encodedQuery) {
+            gr.addEncodedQuery(encodedQuery);
+        }
+        if (limit && offset) { // Check if both limit and offset are provided
+			var numLimit = parseInt(limit, 10);
+            var numOffset = parseInt(offset, 10);
+            gr.chooseWindow(numOffset, numOffset + numLimit); // Set the window of records to retrieve
+            gr.setWorkflow(false); // Disable workflow to improve performance
+        } else if (limit) {
+            gr.setLimit(parseInt(limit, 10));
+        }
+
+        // Query the table
+        gr.query();
+
+        // Loop through the results
+        while (gr.next()) {
+            var data = {};
+
+            // Get data from sn_employee_profile
+            data.personal_phone = gr.u_personal_phone.toString();
+            data.hybrid_remote_worker = gr.u_hybrid_remote_worker.toString();
+            data.number = gr.number.toString();
+            data.physical_location = gr.u_physical_location.toString();
+            data.personal_email = gr.u_personal_email.toString();
+            data.position_type = gr.position_type.toString();
+            data.employment_start_date = gr.employment_start_date.getDisplayValue();
+            data.union_status = gr.u_union_status.toString();
+            data.is_employee = gr.u_is_employee.toString();
+            data.employment_end_date = gr.employment_end_date.getDisplayValue();
+            data.nickname = gr.nickname.toString();
+			data.user_requires_email = gr.u_user_requires_email.toString();
+			
+            // Get data from associated user record
+            var user = gr.user.getRefRecord();
+			data.active = user.active.toString();
+            data.user_sys_id = user.sys_id.toString();
+            data.user_phone = user.phone.toString();
+            data.first_name = user.first_name.toString();
+            data.last_name = user.last_name.toString();
+            data.email = user.email.toString();
+            data.middle_name = user.middle_name.toString();
+            data.title = user.title.toString();
+
+            data.company_sys_id = "";
+            data.company_name = "";
+            data.location_sys_id = "";
+            data.location_name = "";
+			data.location_city = "";
+			data.location_state = "";
+            data.department_sys_id = "";
+            data.department_name = "";
+            data.manager_sys_id = "";
+            data.manager_name = "";
+
+            // Get company data
+            if (!gs.nil(user.company)) {
+                data.company_sys_id = user.company.sys_id.toString();
+                data.company_name = user.company.name.toString();
+				data.parent_company_name = user.company.parent.name.toString();
+				data.parent_company_sys_id = user.company.parent.sys_id.toString();
+            }
+
+            // Get location data
+            if (!gs.nil(user.location)) {
+                data.location_sys_id = user.location.sys_id.toString();
+                data.location_name = user.location.name.toString();
+				data.location_city = user.location.city.toString();
+				data.location_state = user.location.state.toString();
+            }
+
+            // Get department data
+            if (!gs.nil(user.department)) {
+                data.department_sys_id = user.department.sys_id.toString();
+                data.department_name = user.department.name.toString();
+            }
+
+            // Get manager data
+            if (!gs.nil(user.manager)) {
+                data.manager_sys_id = user.manager.sys_id.toString();
+                data.manager_name = user.manager.name.toString();
+            }
+
+            // Add the data object to the employeeData array
+            employeeData.push(data);
+        }
+
+        return employeeData;
+    },
+
+    type: 'SailpointUserUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-08-25 17:39:53</sys_created_on>
+        <sys_id>8b8976f21b7c791062e50ed2cd4bcbfc</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>SailpointUserUtils</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_update_name>sys_script_include_8b8976f21b7c791062e50ed2cd4bcbfc</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-10-19 14:33:26</sys_updated_on>
+    </sys_script_include>
+</record_update>

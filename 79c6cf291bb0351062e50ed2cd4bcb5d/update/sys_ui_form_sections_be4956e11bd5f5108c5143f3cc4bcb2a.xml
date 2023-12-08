@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="be4956e11bd5f5108c5143f3cc4bcb2a" sys_domain="global" table="sys_decision_multi_result_element" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-09-15 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf4956e11bd5f5108c5143f3cc4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">434956e11bd5f5108c5143f3cc4bcb33</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-09-15 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b4956e11bd5f5108c5143f3cc4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">474956e11bd5f5108c5143f3cc4bcb2e</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-09-15 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c74956e11bd5f5108c5143f3cc4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">4f4956e11bd5f5108c5143f3cc4bcb3d</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-09-15 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b4956e11bd5f5108c5143f3cc4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">c34956e11bd5f5108c5143f3cc4bcb3a</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_decision_multi_result_element</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2023-09-15 14:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be4956e11bd5f5108c5143f3cc4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_decision_multi_result_element</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_be4956e11bd5f5108c5143f3cc4bcb2a</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2023-09-15 14:35:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

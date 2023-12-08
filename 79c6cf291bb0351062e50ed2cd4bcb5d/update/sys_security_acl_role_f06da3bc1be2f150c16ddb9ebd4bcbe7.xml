@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-11-14 16:06:06</sys_created_on>
+        <sys_id>f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_job_titles.user_admin</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_security_acl display_value="u_job_titles">306da3bc1be2f150c16ddb9ebd4bcbe3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-11-14 16:06:06</sys_updated_on>
+        <sys_user_role display_value="user_admin" name="user_admin">049d55090a0a0a660162aa57a266b241</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

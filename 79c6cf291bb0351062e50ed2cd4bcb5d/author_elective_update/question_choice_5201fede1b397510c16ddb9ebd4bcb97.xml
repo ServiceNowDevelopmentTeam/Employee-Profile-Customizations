@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>true</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type of Worker">ec9a6c1b1b9bd810e7004229bc4bcb65</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-10-12 20:46:19</sys_created_on>
+        <sys_id>5201fede1b397510c16ddb9ebd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_update_name>question_choice_5201fede1b397510c16ddb9ebd4bcb97</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-10-12 20:46:19</sys_updated_on>
+        <text/>
+        <value/>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5201fede1b397510c16ddb9ebd4bcb97"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>question_choice_5201fede1b397510c16ddb9ebd4bcb97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>true</inactive><order>100</order><published_ref/><question display_value="Type of Worker">ec9a6c1b1b9bd810e7004229bc4bcb65</question><sys_class_name>question_choice</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-10-12 20:46:19</sys_created_on><sys_id>5201fede1b397510c16ddb9ebd4bcb97</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package><sys_policy/><sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope><sys_update_name>question_choice_5201fede1b397510c16ddb9ebd4bcb97</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-10-12 20:46:19</sys_updated_on><text/><value/></question_choice><fx_price action="delete_multiple" query="id=5201fede1b397510c16ddb9ebd4bcb97"/></record_update>]]></payload>
+        <payload_hash>-628774920</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a365e2fc1b89b15062e50ed2cd4bcb3f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-10-12 20:46:19</sys_created_on>
+        <sys_id>3301fa521b797510c16ddb9ebd4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b25a3e2720000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-10-12 20:46:19</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>7301fa52ca79751062a52ee1191fdda3</update_guid>
+        <update_guid_history>7301fa52ca79751062a52ee1191fdda3:-628774920</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2111fa521b797510c16ddb9ebd4bcbc1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-10-12 20:46:26</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>6b79fec8d91d4417a18593a465ae7201</sys_id>
+        <sys_metadata>5201fede1b397510c16ddb9ebd4bcb97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_parent display_value="Type of Worker">ec9a6c1b1b9bd810e7004229bc4bcb65</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_scope_delete display_value="">1cd1a5e2f1474dcd8a51a0431fba9119</sys_scope_delete>
+        <sys_update_name>question_choice_5201fede1b397510c16ddb9ebd4bcb97</sys_update_name>
+        <sys_update_version display_value="question_choice_5201fede1b397510c16ddb9ebd4bcb97">3301fa521b797510c16ddb9ebd4bcbb0</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-10-12 20:46:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-11-06 16:57:02</sys_created_on>
+        <sys_id>af4c2a5e1b5a7110c16ddb9ebd4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a84ce65e1b5a7110c16ddb9ebd4bcb6e</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_af4c2a5e1b5a7110c16ddb9ebd4bcb9c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-11-06 16:57:02</sys_updated_on>
+        <web_service_operation display_value="transferred">2df466d61b1a7110c16ddb9ebd4bcbee</web_service_operation>
+        <web_service_query_parameter display_value="transferred_user_sam_account_name">a84ce65e1b5a7110c16ddb9ebd4bcb6e</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="domain_master=user" audit="true" db_object_id="52a811551b1211108db03375cc4bcbe3" label="Employee Profile" max_length="40" name="sn_employee_profile" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Has Company Email" max_length="40" name="u_has_company_email" read_only="true" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#13;&#10;&#13;&#10;})(current);" label="Is Employee" max_length="40" name="u_is_employee" read_only="true" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="non_union" label="Union Status" max_length="40" name="u_union_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-Union" value="non_union"/>
+                <element inactive_on_update="false" label="Union" value="union"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="User Requires Email" max_length="40" name="u_user_requires_email" type="boolean"/>
+    </element>
+</database>

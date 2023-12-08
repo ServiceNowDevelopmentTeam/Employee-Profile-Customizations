@@ -22,22 +22,22 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>79c6cf291bb0351062e50ed2cd4bcb5d</source>
-        <store_correlation_id>REPOAPP0001064568</store_correlation_id>
+        <store_correlation_id>REPOAPP0001111237</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-08-21 21:22:59</sys_created_on>
         <sys_id>79c6cf291bb0351062e50ed2cd4bcb5d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-26 19:48:17</sys_updated_on>
+        <sys_updated_on>2023-12-06 21:39:55</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.2</version>
+        <version>1.0.12</version>
     </sys_app>
 </record_update>

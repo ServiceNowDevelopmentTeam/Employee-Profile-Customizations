@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>transferred</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var userAccountName = request.queryParams.transferred_user_sam_account_name;
+	
+	(function() {
+	
+	try {
+		var inputs = {};
+		inputs['user_sam_account_name'] = userAccountName; // String 
+		sn_fd.FlowAPI.getRunner().subflow('global.prof__rest_api_employee_transferred__nr').inBackground().withInputs(inputs).run();	
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+})();
+	
+    response.setBody({"Status":"Success"});
+    response.setContentType('application/json');
+    response.setStatus(200);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/apig/sp_user_data/transferred</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/transferred</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-11-06 16:25:06</sys_created_on>
+        <sys_id>2df466d61b1a7110c16ddb9ebd4bcbee</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>transferred</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_update_name>sys_ws_operation_2df466d61b1a7110c16ddb9ebd4bcbee</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-11-13 17:36:46</sys_updated_on>
+        <web_service_definition display_value="Sailpoint User Data">6abe62761b3c791062e50ed2cd4bcbfc</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</claim_owner_scope>
+        <claim_timestamp>18ba58fe0360000001</claim_timestamp>
+        <metadata_update_name>sys_ws_operation_2df466d61b1a7110c16ddb9ebd4bcbee</metadata_update_name>
+        <previous_claim_app_version>1.0.3</previous_claim_app_version>
+        <previous_claim_name>Employee Profile Customizations</previous_claim_name>
+        <previous_claim_scope>79c6cf291bb0351062e50ed2cd4bcb5d</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-11-06 16:55:51</sys_created_on>
+        <sys_id>270ca25e1b5a7110c16ddb9ebd4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-11-06 16:55:51</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-11-14 16:06:06</sys_created_on>
+        <sys_id>f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_job_titles.user_admin</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_security_acl display_value="u_job_titles">306da3bc1be2f150c16ddb9ebd4bcbe3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-11-14 16:06:06</sys_updated_on>
+        <sys_user_role display_value="user_admin" name="user_admin">049d55090a0a0a660162aa57a266b241</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_security_acl_role_f06da3bc1be2f150c16ddb9ebd4bcbe7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-11-14 16:06:06</sys_created_on>
+        <sys_id>f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_job_titles.user_admin</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_security_acl display_value="u_job_titles">306da3bc1be2f150c16ddb9ebd4bcbe3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-11-14 16:06:06</sys_updated_on>
+        <sys_user_role display_value="user_admin" name="user_admin">049d55090a0a0a660162aa57a266b241</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>889077248</payload_hash>
+        <record_name>u_job_titles.user_admin</record_name>
+        <reverted_from/>
+        <source>fead128e33d192109b1810919e5c7bb5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-18 20:34:17</sys_created_on>
+        <sys_id>62bdd68e33d192109b1810919e5c7b07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a156906f0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-18 20:34:17</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2ebdd68e74d192107d62bf8c22c38206</update_guid>
+        <update_guid_history>2ebdd68e74d192107d62bf8c22c38206:0,bc90b3f979873910c6e2012306bf0ba9:1688626035,3890b3f945873910c492626f88330ca3:-514467993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-18 20:34:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>43c6f7e414064c07ad02baa8fbddd461</sys_id>
+        <sys_metadata>f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_job_titles.user_admin</sys_name>
+        <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
+        <sys_scope_delete display_value="">1cd1a5e2f1474dcd8a51a0431fba9119</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f06da3bc1be2f150c16ddb9ebd4bcbe7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f06da3bc1be2f150c16ddb9ebd4bcbe7">62bdd68e33d192109b1810919e5c7b07</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-18 20:34:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -14,6 +14,5 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-14 16:06:06</sys_updated_on>
         <sys_user_role display_value="user_admin" name="user_admin">049d55090a0a0a660162aa57a266b241</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

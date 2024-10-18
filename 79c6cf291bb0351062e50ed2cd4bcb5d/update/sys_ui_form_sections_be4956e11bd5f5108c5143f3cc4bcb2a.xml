@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">434956e11bd5f5108c5143f3cc4bcb33</sys_ui_section>
+            <sys_ui_section display_value="">434956e11bd5f5108c5143f3cc4bcb33</sys_ui_section>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">474956e11bd5f5108c5143f3cc4bcb2e</sys_ui_section>
+            <sys_ui_section display_value="">474956e11bd5f5108c5143f3cc4bcb2e</sys_ui_section>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">4f4956e11bd5f5108c5143f3cc4bcb3d</sys_ui_section>
+            <sys_ui_section display_value="">4f4956e11bd5f5108c5143f3cc4bcb3d</sys_ui_section>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_decision_multi_result_element" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">be4956e11bd5f5108c5143f3cc4bcb2a</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_decision_multi_result_element" sys_domain="global" view="Default view">c34956e11bd5f5108c5143f3cc4bcb3a</sys_ui_section>
+            <sys_ui_section display_value="">c34956e11bd5f5108c5143f3cc4bcb3a</sys_ui_section>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2023-09-15 14:35:40</sys_updated_on>
         </sys_ui_form_section>

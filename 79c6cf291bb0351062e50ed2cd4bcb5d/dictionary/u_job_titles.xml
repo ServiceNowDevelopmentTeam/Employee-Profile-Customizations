@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a3dce3f81be2f150c16ddb9ebd4bcb05" label="Job Titles" max_length="40" name="u_job_titles" type="collection">
         <element display="true" label="Name" max_length="30" name="u_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Source ERP" max_length="40" name="u_source_erp" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source ERP" max_length="40" name="u_source_erp" type="choice">
             <choice>
                 <element inactive_on_update="false" label="AX" value="AX"/>
                 <element inactive_on_update="false" label="WebApps" value="WebApps"/>

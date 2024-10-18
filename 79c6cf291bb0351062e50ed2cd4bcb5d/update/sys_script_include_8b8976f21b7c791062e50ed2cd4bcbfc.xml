@@ -3,7 +3,7 @@
         <access>public</access>
         <active>true</active>
         <api_name>global.SailpointUserUtils</api_name>
-        <caller_access>1</caller_access>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description/>
         <name>SailpointUserUtils</name>
@@ -48,7 +48,8 @@ SailpointUserUtils.prototype = {
             data.employment_end_date = gr.employment_end_date.getDisplayValue();
             data.nickname = gr.nickname.toString();
 			data.user_requires_email = gr.u_user_requires_email.toString();
-			
+			data.office_license = gr.u_office_license.toString();
+
             // Get data from associated user record
             var user = gr.user.getRefRecord();
 			data.active = user.active.toString();
@@ -112,13 +113,13 @@ SailpointUserUtils.prototype = {
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-08-25 17:39:53</sys_created_on>
         <sys_id>8b8976f21b7c791062e50ed2cd4bcbfc</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>SailpointUserUtils</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
         <sys_update_name>sys_script_include_8b8976f21b7c791062e50ed2cd4bcbfc</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-19 14:33:26</sys_updated_on>
+        <sys_updated_on>2024-09-10 20:36:17</sys_updated_on>
     </sys_script_include>
 </record_update>

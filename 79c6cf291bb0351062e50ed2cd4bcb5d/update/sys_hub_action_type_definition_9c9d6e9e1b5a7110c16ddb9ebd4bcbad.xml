@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c9d6e9e1b5a7110c16ddb9ebd4bcbad</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Look up latest RITM by variable value</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9c9d6e9e1b5a7110c16ddb9ebd4bcbad</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-11-06 17:36:40</sys_updated_on>
+        <sys_updated_on>2024-10-18 20:34:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -270,18 +270,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6a7ea2521b9a7110c16ddb9ebd4bcb3d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>6a7ea2521b9a7110c16ddb9ebd4bcb3d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-11-06 17:06:27</sys_created_on>
-        <sys_id>7a7ea2521b9a7110c16ddb9ebd4bcb62</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-11-06 17:06:27</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalogitem</field>
         <id>6a7ea2521b9a7110c16ddb9ebd4bcb3d</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -292,18 +280,6 @@
         <sys_updated_on>2023-11-06 17:06:27</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_6a7ea2521b9a7110c16ddb9ebd4bcb3d</table>
         <value>{{action.catalog_item.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>6a7ea2521b9a7110c16ddb9ebd4bcb3d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-11-06 17:06:27</sys_created_on>
-        <sys_id>727ea2521b9a7110c16ddb9ebd4bcb63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-11-06 17:06:27</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variablename</field>
@@ -680,11 +656,11 @@
         <sys_created_on>2023-11-06 17:06:27</sys_created_on>
         <sys_id>ba7ea2521b9a7110c16ddb9ebd4bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ritm</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_6a7ea2521b9a7110c16ddb9ebd4bcb3d_ritm_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:06:27</sys_updated_on>
         <url/>
@@ -1231,11 +1207,11 @@
         <sys_created_on>2023-11-06 17:04:05</sys_created_on>
         <sys_id>00fda6121b9a7110c16ddb9ebd4bcbdb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Name</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9c9d6e9e1b5a7110c16ddb9ebd4bcbad_variable_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:04:05</sys_updated_on>
         <url/>
@@ -1254,11 +1230,11 @@
         <sys_created_on>2023-11-06 17:04:05</sys_created_on>
         <sys_id>80fda6121b9a7110c16ddb9ebd4bcbd7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Catalog Item</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9c9d6e9e1b5a7110c16ddb9ebd4bcbad_catalog_item_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:04:05</sys_updated_on>
         <url/>
@@ -1277,11 +1253,11 @@
         <sys_created_on>2023-11-06 17:04:05</sys_created_on>
         <sys_id>8cfda6121b9a7110c16ddb9ebd4bcbde</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Value</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9c9d6e9e1b5a7110c16ddb9ebd4bcbad_variable_value_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:04:05</sys_updated_on>
         <url/>
@@ -1302,11 +1278,11 @@
         <sys_created_on>2023-11-06 17:06:27</sys_created_on>
         <sys_id>327ea2521b9a7110c16ddb9ebd4bcbad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9c9d6e9e1b5a7110c16ddb9ebd4bcbad___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:06:27</sys_updated_on>
         <url/>
@@ -1325,11 +1301,11 @@
         <sys_created_on>2023-11-06 17:04:06</sys_created_on>
         <sys_id>94fda6121b9a7110c16ddb9ebd4bcbe7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>RITM</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9c9d6e9e1b5a7110c16ddb9ebd4bcbad_ritm_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:04:06</sys_updated_on>
         <url/>
@@ -1348,11 +1324,11 @@
         <sys_created_on>2023-11-06 17:06:27</sys_created_on>
         <sys_id>ba7ea2521b9a7110c16ddb9ebd4bcb75</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9c9d6e9e1b5a7110c16ddb9ebd4bcbad___action_status___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:06:27</sys_updated_on>
         <url/>
@@ -1551,18 +1527,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=fb13f6d61b9a7110c16ddb9ebd4bcb4b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>fb13f6d61b9a7110c16ddb9ebd4bcb4b</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-11-06 17:26:44</sys_created_on>
-        <sys_id>3313f6d61b9a7110c16ddb9ebd4bcb7b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalogitem</field>
         <id>fb13f6d61b9a7110c16ddb9ebd4bcb4b</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -1573,18 +1537,6 @@
         <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_fb13f6d61b9a7110c16ddb9ebd4bcb4b</table>
         <value>{{action.catalog_item.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>fb13f6d61b9a7110c16ddb9ebd4bcb4b</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-11-06 17:26:44</sys_created_on>
-        <sys_id>f713f6d61b9a7110c16ddb9ebd4bcb7b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variablename</field>
@@ -1961,11 +1913,11 @@
         <sys_created_on>2023-11-06 17:26:44</sys_created_on>
         <sys_id>b313f6d61b9a7110c16ddb9ebd4bcb77</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ritm</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_fb13f6d61b9a7110c16ddb9ebd4bcb4b_ritm_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
         <url/>
@@ -2604,11 +2556,11 @@
         <sys_created_on>2023-11-06 17:26:43</sys_created_on>
         <sys_id>3b13f6d61b9a7110c16ddb9ebd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Name</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6713f6d61b9a7110c16ddb9ebd4bcb38_variable_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:43</sys_updated_on>
         <url/>
@@ -2627,11 +2579,11 @@
         <sys_created_on>2023-11-06 17:26:43</sys_created_on>
         <sys_id>ab13f6d61b9a7110c16ddb9ebd4bcb41</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Catalog Item</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6713f6d61b9a7110c16ddb9ebd4bcb38_catalog_item_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:43</sys_updated_on>
         <url/>
@@ -2650,11 +2602,11 @@
         <sys_created_on>2023-11-06 17:26:43</sys_created_on>
         <sys_id>b713f6d61b9a7110c16ddb9ebd4bcb49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable Value</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6713f6d61b9a7110c16ddb9ebd4bcb38_variable_value_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:43</sys_updated_on>
         <url/>
@@ -2675,11 +2627,11 @@
         <sys_created_on>2023-11-06 17:26:44</sys_created_on>
         <sys_id>4423f6d61b9a7110c16ddb9ebd4bcb96</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6713f6d61b9a7110c16ddb9ebd4bcb38___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
         <url/>
@@ -2698,11 +2650,11 @@
         <sys_created_on>2023-11-06 17:26:44</sys_created_on>
         <sys_id>fb13f6d61b9a7110c16ddb9ebd4bcb8c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>RITM</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6713f6d61b9a7110c16ddb9ebd4bcb38_ritm_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
         <url/>
@@ -2721,11 +2673,11 @@
         <sys_created_on>2023-11-06 17:26:44</sys_created_on>
         <sys_id>fb13f6d61b9a7110c16ddb9ebd4bcb90</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6713f6d61b9a7110c16ddb9ebd4bcb38___action_status___en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-06 17:26:44</sys_updated_on>
         <url/>
@@ -2735,6 +2687,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>9c9d6e9e1b5a7110c16ddb9ebd4bcbad</sys_id>
         <latest_snapshot>6713f6d61b9a7110c16ddb9ebd4bcb38</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch5-12-01-2023_12-11-2023_2006.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

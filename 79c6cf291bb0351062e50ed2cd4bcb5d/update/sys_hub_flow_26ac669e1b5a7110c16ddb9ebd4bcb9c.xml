@@ -5,14 +5,19 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>prof__rest_api_employee_transferred__nr</internal_name>
         <label_cache>[{"name":"84439c03-65fa-405d-8c31-bd09d265350f.Record.sys_id","label":"2 - Look Up Record➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"0fe0b27e-6ea8-489c-be60-713aa6126df5.ritm","label":"3 - Look up latest RITM by variable value➛RITM","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"783445f9-15b0-4538-bf7a-dc56ee10c3e8"}},{"name":"subflow.user_sam_account_name","label":"Input➛user_sam_account_name","reference":"","reference_display":"","type":"array.string","base_type":"array.string","column_name":"","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD0de8ab60c9aa3150760318d933010631","child_label":"user_sam_account_name_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"user_sam_account_name_child0","child_uiUniqueId":"1c8f110e-7a2e-4e4e-9139-bc375f8e1ba8","uiUniqueId":"b8d149b0-dc36-4983-a34d-0be43d3900c0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e64dd8f4-c4f6-4b02-8957-c04a1080678f.item","label":"1 - For Each➛user_sam_account_name_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
         <master_snapshot>20c6b65e1b9a7110c16ddb9ebd4bcbba</master_snapshot>
+        <master_snapshot_digest/>
         <name>PROF - REST API Employee Transferred - NR</name>
         <natlang/>
         <outputs/>
@@ -24,6 +29,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-11-06 16:58:31</sys_created_on>
@@ -38,12 +44,12 @@
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
         <sys_update_name>sys_hub_flow_26ac669e1b5a7110c16ddb9ebd4bcb9c</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-10-18 20:34:50</sys_updated_on>
+        <sys_updated_on>2024-09-07 11:41:32</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_variable_value action="delete_multiple" query="document_key=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=26ac669e1b5a7110c16ddb9ebd4bcb9c^sys_idNOT INe2ac669e1b5a7110c16ddb9ebd4bcb9e"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -168,6 +174,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=10aea5031b923d1062e50ed2cd4bcb0f"/>
     <sys_hub_flow_output action="delete_multiple" query="model=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c^sys_idNOT IN18c6b65e1b9a7110c16ddb9ebd4bcb6e,27ae2d031b923d1062e50ed2cd4bcb3b,81e5feda1b9a7110c16ddb9ebd4bcba2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -178,6 +185,7 @@
         <comment>Look up related ritm</comment>
         <display_text/>
         <flow display_value="PROF - REST API Employee Transferred - NR">26ac669e1b5a7110c16ddb9ebd4bcb9c</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>e64dd8f4-c4f6-4b02-8957-c04a1080678f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -267,6 +275,7 @@
         <comment/>
         <display_text/>
         <flow display_value="PROF - REST API Employee Transferred - NR">26ac669e1b5a7110c16ddb9ebd4bcb9c</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>e64dd8f4-c4f6-4b02-8957-c04a1080678f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -356,6 +365,7 @@
         <comment/>
         <display_text/>
         <flow display_value="PROF - REST API Employee Transferred - NR">26ac669e1b5a7110c16ddb9ebd4bcb9c</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>e64dd8f4-c4f6-4b02-8957-c04a1080678f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -462,7 +472,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=81e5feda1b9a7110c16ddb9ebd4bcba2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=81e5feda1b9a7110c16ddb9ebd4bcba2"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c^sys_idNOT IN2fae2d031b923d1062e50ed2cd4bcb4e,67ae2d031b923d1062e50ed2cd4bcb32,6a492b641baa3150c16ddb9ebd4bcb47"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -476,6 +485,7 @@
         <flow display_value="PROF - REST API Employee Transferred - NR">26ac669e1b5a7110c16ddb9ebd4bcb9c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
         <order>5</order>
@@ -538,6 +548,7 @@
         <flow display_value="PROF - REST API Employee Transferred - NR">26ac669e1b5a7110c16ddb9ebd4bcb9c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
@@ -571,6 +582,7 @@
         <flow display_value="PROF - REST API Employee Transferred - NR">26ac669e1b5a7110c16ddb9ebd4bcb9c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -606,6 +618,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6a492b641baa3150c16ddb9ebd4bcb47"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6a492b641baa3150c16ddb9ebd4bcb47"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=26ac669e1b5a7110c16ddb9ebd4bcb9c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_26ac669e1b5a7110c16ddb9ebd4bcb9c^sys_idNOT IN54aea5031b923d1062e50ed2cd4bcb12"/>
@@ -641,11 +654,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>prof__rest_api_employee_transferred__nr</internal_name>
         <label_cache>[{"name":"84439c03-65fa-405d-8c31-bd09d265350f.Record.sys_id","label":"2 - Look Up Record➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"0fe0b27e-6ea8-489c-be60-713aa6126df5.ritm","label":"3 - Look up latest RITM by variable value➛RITM","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"783445f9-15b0-4538-bf7a-dc56ee10c3e8"}},{"name":"subflow.user_sam_account_name","label":"Input➛user_sam_account_name","reference":"","reference_display":"","type":"array.string","base_type":"array.string","column_name":"","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD0de8ab60c9aa3150760318d933010631","child_label":"user_sam_account_name_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"user_sam_account_name_child0","child_uiUniqueId":"1c8f110e-7a2e-4e4e-9139-bc375f8e1ba8","uiUniqueId":"b8d149b0-dc36-4983-a34d-0be43d3900c0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e64dd8f4-c4f6-4b02-8957-c04a1080678f.item","label":"1 - For Each➛user_sam_account_name_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
         <master>true</master>
@@ -674,10 +689,10 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-11-13 21:09:47</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_variable_value action="delete_multiple" query="document_key=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=20c6b65e1b9a7110c16ddb9ebd4bcbba^sys_idNOT IN24c6b65e1b9a7110c16ddb9ebd4bcbbb"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -802,6 +817,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1bbee1431b923d1062e50ed2cd4bcb0d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba^sys_idNOT IN30c6f65e1b9a7110c16ddb9ebd4bcb5d,afbe25431b923d1062e50ed2cd4bcb26,f8c6f65e1b9a7110c16ddb9ebd4bcb65"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -812,6 +828,7 @@
         <comment>Look up related ritm</comment>
         <display_text/>
         <flow display_value="PROF - REST API Employee Transferred - NR">20c6b65e1b9a7110c16ddb9ebd4bcbba</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>e64dd8f4-c4f6-4b02-8957-c04a1080678f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -901,6 +918,7 @@
         <comment/>
         <display_text/>
         <flow display_value="PROF - REST API Employee Transferred - NR">20c6b65e1b9a7110c16ddb9ebd4bcbba</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>e64dd8f4-c4f6-4b02-8957-c04a1080678f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -990,6 +1008,7 @@
         <comment/>
         <display_text/>
         <flow display_value="PROF - REST API Employee Transferred - NR">20c6b65e1b9a7110c16ddb9ebd4bcbba</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>e64dd8f4-c4f6-4b02-8957-c04a1080678f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1082,7 +1101,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f8c6f65e1b9a7110c16ddb9ebd4bcb65"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8c6f65e1b9a7110c16ddb9ebd4bcb65"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba^sys_idNOT IN27be25431b923d1062e50ed2cd4bcb3e,5349eb641baa3150c16ddb9ebd4bcb38,63be25431b923d1062e50ed2cd4bcb3b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1096,6 +1114,7 @@
         <flow display_value="PROF - REST API Employee Transferred - NR">20c6b65e1b9a7110c16ddb9ebd4bcbba</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
         <order>5</order>
@@ -1158,6 +1177,7 @@
         <flow display_value="PROF - REST API Employee Transferred - NR">20c6b65e1b9a7110c16ddb9ebd4bcbba</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1205,6 +1225,7 @@
         <flow display_value="PROF - REST API Employee Transferred - NR">20c6b65e1b9a7110c16ddb9ebd4bcbba</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
@@ -1226,6 +1247,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=63be25431b923d1062e50ed2cd4bcb3b"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=63be25431b923d1062e50ed2cd4bcb3b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=63be25431b923d1062e50ed2cd4bcb3b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=20c6b65e1b9a7110c16ddb9ebd4bcbba"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_20c6b65e1b9a7110c16ddb9ebd4bcbba^sys_idNOT INe3bee1431b923d1062e50ed2cd4bcbf4"/>

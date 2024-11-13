@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="domain_master=user" audit="true" db_object_id="52a811551b1211108db03375cc4bcbe3" label="Profil pracownika" max_length="40" name="sn_employee_profile" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Has Company Email" max_length="40" name="u_has_company_email" read_only="true" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#9;&#10;&#10;&#10;})(current);" label="Is Employee" max_length="40" name="u_is_employee" read_only="true" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Office License" max_length="40" name="u_office_license" type="choice">
+    <element attributes="domain_master=user" audit="true" db_object_id="52a811551b1211108db03375cc4bcbe3" label="Profil de l'employé" max_length="40" name="sn_employee_profile" type="collection">
+        <element label="Has Company Email" max_length="40" name="u_has_company_email" read_only="true" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#9;&#10;&#10;&#10;})(current);" label="Is Employee" max_length="40" name="u_is_employee" read_only="true" type="boolean"/>
+        <element choice="1" label="Office License" max_length="40" name="u_office_license" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Field Professional" value="Field Professional"/>
                 <element inactive_on_update="false" label="Office Professional" value="Office Professional"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="non_union" label="Union Status" max_length="40" name="u_union_status" type="choice">
+        <element choice="1" default="non_union" label="Union Status" max_length="40" name="u_union_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Non-Union" value="non_union"/>
                 <element inactive_on_update="false" label="Union" value="union"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="User Requires Email" max_length="40" name="u_user_requires_email" type="boolean"/>
+        <element label="User Requires Email" max_length="40" name="u_user_requires_email" type="boolean"/>
     </element>
 </database>

@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_name</element>
-            <list_id display_value="u_job_titles" element="NULL" name="u_job_titles" parent="NULL" relationship="NULL" sys_domain="global" view="4f7420631b211010e7004229bc4bcb5f">20bdd28e33d192109b1810919e5c7b37</list_id>
+            <list_id display_value="u_job_titles" element="NULL" name="u_job_titles" parent="NULL" relationship="NULL" sys_domain="global" view="4f7420631b211010e7004229bc4bcb5f">ddc929981b5c0a90c16ddb9ebd4bcb51</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -30,7 +30,7 @@
             <sys_created_on>2024-02-07 17:03:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>20bdd28e33d192109b1810919e5c7b37</sys_id>
+            <sys_id>ddc929981b5c0a90c16ddb9ebd4bcb51</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_job_titles</sys_name>
             <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>SailpointUserUtils</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var SailpointUserUtils = Class.create();
 SailpointUserUtils.prototype = {
     initialize: function () {
@@ -60,6 +62,7 @@ SailpointUserUtils.prototype = {
             data.email = user.email.toString();
             data.middle_name = user.middle_name.toString();
             data.title = user.title.toString();
+			data.country = user.location.country.toString();
 
             data.company_sys_id = "";
             data.company_name = "";
@@ -113,13 +116,24 @@ SailpointUserUtils.prototype = {
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-08-25 17:39:53</sys_created_on>
         <sys_id>8b8976f21b7c791062e50ed2cd4bcbfc</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>SailpointUserUtils</sys_name>
         <sys_package display_value="Employee Profile Customizations" source="79c6cf291bb0351062e50ed2cd4bcb5d">79c6cf291bb0351062e50ed2cd4bcb5d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
         <sys_update_name>sys_script_include_8b8976f21b7c791062e50ed2cd4bcbfc</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-10 20:36:17</sys_updated_on>
+        <sys_updated_on>2024-11-01 16:00:44</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8b8976f21b7c791062e50ed2cd4bcbfc</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-11-01 15:20:11</sys_created_on>
+        <sys_id>ce1cd1a633e516509b1810919e5c7b6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-11-01 15:20:11</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

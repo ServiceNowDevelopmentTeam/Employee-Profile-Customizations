@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a3dce3f81be2f150c16ddb9ebd4bcb05" label="Job Titles" max_length="40" name="u_job_titles" type="collection">
-        <element display="true" label="Name" max_length="30" name="u_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Source ERP" max_length="40" name="u_source_erp" type="choice">
+        <element display="true" label="Name" max_length="200" name="u_name" type="string"/>
+        <element choice="1" label="Source ERP" max_length="40" name="u_source_erp" type="choice">
             <choice>
                 <element inactive_on_update="false" label="AX" value="AX"/>
                 <element inactive_on_update="false" label="WebApps" value="WebApps"/>
             </choice>
         </element>
-        <element label="Value" max_length="40" name="u_value" type="string"/>
+        <element label="Value" max_length="200" name="u_value" type="string"/>
     </element>
 </database>

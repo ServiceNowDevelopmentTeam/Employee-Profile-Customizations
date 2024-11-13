@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="baadc4571b83711046b60ed5604bcbcd" extends="sys_import_set_row" label="Imp Tmpl U Job Titles" max_length="40" name="u_imp_tmpl_u_job_titles" type="collection">
+        <element attributes="import_attribute_name=EEOXrefCode" label="EEOXrefCode" max_length="15" name="u_eeoxrefcode" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EffectiveEnd" label="EffectiveEnd" max_length="40" name="u_effectiveend" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EffectiveStart" label="EffectiveStart" max_length="40" name="u_effectivestart" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FLSAStatusXrefCode" label="FLSAStatusXrefCode" max_length="40" name="u_flsastatusxrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IsUnionJob" label="IsUnionJob" max_length="40" name="u_isunionjob" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobClassificationXRefCode" label="JobClassificationXRefCode" max_length="40" name="u_jobclassificationxrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobClassificationGlobalXRefCode" label="JobClassificationGlobalXRefCode" max_length="40" name="u_jobclassific_globalxrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobFamilyXRefCode" label="JobFamilyXRefCode" max_length="40" name="u_jobfamilyxrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobFunctionXRefCode" label="JobFunctionXRefCode" max_length="40" name="u_jobfunctionxrefcode" type="string"/>
+        <element attributes="import_attribute_name=JobRank" label="JobRank" max_length="40" name="u_jobrank" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobUDFString1" label="JobUDFString1" max_length="40" name="u_jobudfstring1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobUDFString2" label="JobUDFString2" max_length="40" name="u_jobudfstring2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=JobUDFString3" label="JobUDFString3" max_length="40" name="u_jobudfstring3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LedgerCode" label="LedgerCode" max_length="40" name="u_ledgercode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NOC" label="NOC" max_length="40" name="u_noc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PayGradeDescription" label="PayGradeDescription" max_length="40" name="u_paygradedescription" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PayGradeName" label="PayGradeName" max_length="40" name="u_paygradename" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PayGradeXRefCode" label="PayGradeXRefCode" max_length="40" name="u_paygradexrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ShortName" label="ShortName" max_length="40" name="u_shortname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SocCodeXRefCode" label="SocCodeXRefCode" max_length="40" name="u_soccodexrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source ERP" label="Source ERP" max_length="40" name="u_source_erp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UnionXRefCode" label="UnionXRefCode" max_length="40" name="u_unionxrefcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=XrefCode" label="XrefCode" max_length="40" name="u_xrefcode" type="string"/>
+    </element>
+</database>

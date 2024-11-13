@@ -58,7 +58,7 @@
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
         <sys_update_name>sys_dictionary_u_job_titles_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-11-22 12:09:43</sys_updated_on>
+        <sys_updated_on>2023-12-13 12:09:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -71,4 +71,18 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_dictionary>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</claim_owner_scope>
+        <claim_timestamp>1932783da280000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_u_job_titles_null</metadata_update_name>
+        <previous_claim_app_version>1.1.1</previous_claim_app_version>
+        <previous_claim_name>Employee Profile Customizations</previous_claim_name>
+        <previous_claim_scope>79c6cf291bb0351062e50ed2cd4bcb5d</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-11-13 21:52:52</sys_created_on>
+        <sys_id>8b0928e6fb31da10e070fff26eefdcb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-11-13 21:52:52</sys_updated_on>
+    </sys_claim>
 </record_update>

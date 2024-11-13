@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>look_up_ritm_by_variable_value</internal_name>
         <label_cache>[{"name":"{{action.catalog_item}}","label":"action➛Catalog Item","type":"action","ref":"","reference_display":"Catalog Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable_name}}","label":"action➛Variable Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable_value}}","label":"action➛Variable Value","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.catalog_item.sys_id}}","label":"action➛Catalog Item➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[99ade070-5c90-41a3-91e3-1792e14a9e88].ritm}}","label":"step➛Script step➛ritm","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[2ea7c9cd-1c5a-4ab1-9337-6b60d98c0d8c].record}}","label":"step➛Look Up Record step➛Requested Item Record","type":"step","ref":"sc_req_item","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>6713f6d61b9a7110c16ddb9ebd4bcb38</master_snapshot>
+        <master_snapshot_digest/>
         <name>Look up latest RITM by variable value</name>
         <natlang/>
         <outputs/>
@@ -35,7 +39,7 @@
         <sys_scope display_value="Employee Profile Customizations">79c6cf291bb0351062e50ed2cd4bcb5d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9c9d6e9e1b5a7110c16ddb9ebd4bcbad</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-10-18 20:34:49</sys_updated_on>
+        <sys_updated_on>2023-12-12 21:16:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1357,11 +1361,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>look_up_ritm_by_variable_value</internal_name>
         <label_cache>[{"name":"{{action.catalog_item}}","label":"action➛Catalog Item","type":"action","ref":"","reference_display":"Catalog Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable_name}}","label":"action➛Variable Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable_value}}","label":"action➛Variable Value","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.catalog_item.sys_id}}","label":"action➛Catalog Item➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[99ade070-5c90-41a3-91e3-1792e14a9e88].ritm}}","label":"step➛Script step➛ritm","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[2ea7c9cd-1c5a-4ab1-9337-6b60d98c0d8c].record}}","label":"step➛Look Up Record step➛Requested Item Record","type":"step","ref":"sc_req_item","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
